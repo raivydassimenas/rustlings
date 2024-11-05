@@ -13,7 +13,7 @@ enum Message {
     Move(Point),
     ChangeColor(u64, u64, u64),
     Echo(String),
-    Quit,
+    Quit
 }
 
 impl Message {
